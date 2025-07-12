@@ -3,7 +3,7 @@ FROM redhat/ubi8
 
 COPY app.py  .
 
-COPY test_app.py .
+COPY test.py .
 
 RUN yum install -y python3 && \
     python3 -m ensurepip && \
